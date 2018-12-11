@@ -119,10 +119,11 @@ def input_setting_value(query_num):
     
     while 1:
         s = input('start downloading? (y/n) : ')
-        if s == 'y':
+        if s == 'y' or s == 'n':
             break
-        elif s == 'n':
-            break 
+        else:
+            print('type it again')
+
     if s == 'n':
         exit()
     
