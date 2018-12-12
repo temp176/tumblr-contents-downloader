@@ -57,7 +57,7 @@ interval of download [s] :
 ```
 start downloading? (y/n) :
 ```
-yを入力すると開始し，nを入力するとプログラムを終了します
+yを入力すると開始し，nを入力するとプログラムを終了します．
 
 ## 実行後
 ディレクトリに「download」フォルダが作られます．    
