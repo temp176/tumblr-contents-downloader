@@ -71,15 +71,15 @@ likeの取得をした場合は「download」フォルダの中に「my_likes」
 ├── config.py  
 ├── download  
 │   ├── blog_name1  
-│   │   ├── \ video  
+│   │   ├── video  
 │   │   ├── photo  
 │   │   └── text_type  
 │   ├── blog_name2  
-│   │   ├── \ video  
+│   │   ├── video  
 │   │   ├── photo  
 │   │   └── text_type  
 │   └── my_likes  
-│       ├── \ video  
+│       ├── video  
 │       ├── photo  
 │       └── text_type  
 ├── download.py  
