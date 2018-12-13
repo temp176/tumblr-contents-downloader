@@ -11,7 +11,9 @@ Tumblrの指定したブログの投稿，および自分がlikeした投稿の�
 ## 各種APIキーの取得
 使用するにはAPIキーが必要になります．  
 アプリケーション登録と https://api.tumblr.com/console/calls/user/info などから取得してください．  
-参考：https://github.com/tumblr/pytumblr  
+### 参考
+* Tumblr API和訳：http://kid0725.usamimi.info/api_v2_docs_ja.html
+* PyTumblr：https://github.com/tumblr/pytumblr  
 
 ## APIキーの入力
 取得したAPIキーを[config.py](https://github.com/temp176/tumblr-contents-downloader/blob/master/config.py)に入力してください．  
