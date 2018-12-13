@@ -1,5 +1,5 @@
 # tumblr-contents-downloader
-Tumblrの指定したブログの投稿，および自分がlikeした投稿の写真および動画を取得します．  
+Tumblrの指定したブログの投稿，および自分がlikeした投稿の写真と動画を取得します．  
 
 # 使用ライブラリ
 * pytumblr
