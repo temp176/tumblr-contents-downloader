@@ -29,7 +29,7 @@ def download_photo(post,save_path,sleep_time):
             file_name = photo_orizinal_url.split('/')[-1]
             
             file_path = save_path + '/' + file_name
-            r = requests.get(photo_orizinal_url, stream=True)
+            r = requests.get(photo_orizinal_url, stream = True, timeout=10)
             if r.status_code == 200:
                 with open(file_path, 'wb') as f:
                     f.write(r.content)
@@ -47,7 +47,7 @@ def download_video(post,save_path,sleep_time):
         video_url = post['video_url']
         file_name = video_url.split('/')[-1]
         file_path = save_path + '/' + file_name
-        r = requests.get(video_url, stream=True)
+        r = requests.get(video_url, stream = True, timeout=10)
         if r.status_code == 200:
             with open(file_path, 'wb') as f:
                 f.write(r.content)
@@ -67,7 +67,7 @@ def download_text(post,save_path,sleep_time):
         source_url = bs_obj.source['src']
         file_name = source_url.split('/')[-1]
         file_path = save_path + '/' + file_name
-        r = requests.get(source_url, stream=True)
+        r = requests.get(source_url, stream = True, timeout=10)
         if r.status_code == 200:
             with open(file_path, 'wb') as f:
                 f.write(r.content)
